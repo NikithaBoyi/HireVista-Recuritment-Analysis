@@ -1,52 +1,13 @@
-# =========================
-# Python
-# =========================
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
 
-# Virtual Environment (IMPORTANT)
-backend/venv/
-venv/
-.env/
-
-# Pickle / ML models
-*.pkl
-*.joblib
-
-# =========================
-# Node / Frontend
-# =========================
-frontend/node_modules/
-node_modules/
-
-dist/
-build/
-
-# =========================
-# Logs
-# =========================
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# =========================
-# OS files
-# =========================
-.DS_Store
-Thumbs.db
-
-# =========================
-# IDE files
-# =========================
-.vscode/
-.idea/
-
-# =========================
-# Environment variables
-# =========================
 .env
-.env.local
-.env.*.local
+**/.env
+venv/
+.venv/
+**/venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+node_modules/
+**/node_modules/
+frontend/dist/
